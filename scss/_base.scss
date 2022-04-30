@@ -1,0 +1,40 @@
+@use 'variables'as *;
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $main-bg-color;
+    font-family: $primary-font;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    width: min(90%, 325px);
+}
+
+ul,
+li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border-radius: 1em;
+}
