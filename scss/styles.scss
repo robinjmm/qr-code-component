@@ -1,11 +1,11 @@
-@use 'base/variables';
+@use "base/variables";
 
-@use 'base/reset';
+@use "base/reset";
 
-@use 'base/defaults';
+@use "base/defaults";
 
-@use 'components/card';
+@use "components/card";
 
-@use 'layout/home';
+@use "layout/home";
 
 @use "layout/media-queries";
