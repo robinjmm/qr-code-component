@@ -4,8 +4,8 @@
   "description": "A challenge to build a QR code component from Frontendmentor.io",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch scss/app.scss:css/index.css",
-    "prod": "sass --style=compressed scss/app.scss:css/index.css"
+    "sass": "sass --watch scss/styles.scss:css/styles.css",
+    "prod": "sass --style=compressed scss/styles.scss:css/styles.css"
   },
   "repository": {
     "type": "git",

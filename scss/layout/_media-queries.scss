@@ -1,0 +1,7 @@
+@use "../base/variables" as *;
+
+@media (max-width: 374px) {
+    .qr-code__heading {
+        font-size: rem(18px);
+    }
+}
