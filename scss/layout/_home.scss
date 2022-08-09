@@ -1,9 +1,9 @@
 @use "../base/variables" as *;
 
 body {
-    // width: 100vw;
     padding: 5vh 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--main-bg-color);
@@ -13,4 +13,5 @@ body {
 main {
     width: min(90%, 325px);
     margin: 0 auto;
+    margin-bottom: rem(60px);
 }
