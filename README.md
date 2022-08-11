@@ -3,7 +3,7 @@
 
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-- [Site Preview](https://robinjmm-qr-code-component.netlify.app)
+- [Site Preview](https://robinjmm-qr-code.vercel.app/)
 
 ## About
 This is my solution for the challenge of building a QR Code component. The challenge is from [Frontendmentor.io](https://frontendmentor.io).
