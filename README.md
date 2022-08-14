@@ -1,5 +1,5 @@
 # QR Code Component
-![](./images/solution-screenshot.png)
+![](assets/images/solution-screenshot.png)
 
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
