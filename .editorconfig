@@ -1,0 +1,4 @@
+# Enforce proper indentation in Sass files
+[*.scss]
+indent_style = tab
+indent_size = 4
