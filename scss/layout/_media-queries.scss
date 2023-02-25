@@ -1,7 +1,7 @@
-@use "../base/variables" as *;
+@use "../base/utilities" as *;
 
-@media (max-width: 374px) {
-    .qr-code__heading {
-        font-size: rem(18px);
-    }
+@media (min-width: toRem(375)) {
+	.card__heading {
+		font-size: toRem(22);
+	}
 }

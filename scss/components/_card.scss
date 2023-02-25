@@ -1,40 +1,36 @@
-@use "../base/variables" as *;
+@use "../base/utilities" as *;
 
-.qr-code {
-	background: var(--card-bg-color);
-	font-size: rem(15px);
-	padding: 1.2em;
-	border-radius: 1.3em;
+.card {
+	width: min(90%, toRem(320));
+	margin: 0 auto;
+	background: var(--bg-card);
+	font-size: toRem(15);
+	padding: toRem(16);
+	border-radius: toRem(20);
 	text-align: center;
-	color: var(--text-color);
-	box-shadow: var(--box-shadow);
+	color: var(--text-primary);
+	box-shadow: 0 10px 40px 10px rgba(0, 0, 0, 0.1);
 
 	&__body {
-		padding: 0 1em;
+		padding: 0 toRem(16);
 	}
 
 	&__image {
-		border-radius: 1em;
-		width: 288px;
-		height: 288px;
+		border-radius: toRem(10);
+		width: toRem(288);
+		height: toRem(288);
 	}
 
 	&__heading {
-		color: var(--heading-color);
-		font-size: rem(22px);
+		color: var(--text-accent-dark);
+		font-size: toRem(18);
 		line-height: 1.2;
-		margin-top: 1em;
+		margin-top: toRem(24);
 	}
 
 	&__text {
 		line-height: 1.3;
-		padding-top: 1em;
-		padding-bottom: 1.5em;
+		padding-top: toRem(16);
+		padding-bottom: toRem(22);
 	}
-}
-
-body {
-	color: red;
-	background-color: blue;
-	display: flex;
 }
