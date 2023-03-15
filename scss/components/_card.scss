@@ -4,7 +4,7 @@
 	width: min(90%, rem(320));
 	margin: 0 auto;
 	background: var(--bg-card);
-	font-size: rem(15);
+	font-size: var(--fs-sm);
 	padding: rem(16);
 	border-radius: rem(20);
 	text-align: center;
@@ -23,7 +23,7 @@
 
 	&__heading {
 		color: var(--text-accent-dark);
-		font-size: rem(18);
+		font-size: var(--fs-md);
 		line-height: 1.2;
 		margin-top: rem(24);
 	}

@@ -2,6 +2,6 @@
 
 @media (min-width: rem(375)) {
 	.card__heading {
-		font-size: rem(22);
+		font-size: var(--fs-lg);
 	}
 }
