@@ -1,7 +1,7 @@
-@use "../base/utilities" as *;
+@use "../base/functions" as *;
 
 body {
-	padding: toRem(80) 0;
+	padding: rem(80) 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

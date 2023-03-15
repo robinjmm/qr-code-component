@@ -1,7 +1,7 @@
-@use "../base/utilities" as *;
+@use "../base/functions" as *;
 
-@media (min-width: toRem(375)) {
+@media (min-width: rem(375)) {
 	.card__heading {
-		font-size: toRem(22);
+		font-size: rem(22);
 	}
 }

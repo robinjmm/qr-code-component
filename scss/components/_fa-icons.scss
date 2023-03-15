@@ -1,8 +1,8 @@
-@use "../base/utilities" as *;
+@use "../base/functions" as *;
 
 .fa-github {
 	color: var(--text-accent-dark);
-	font-size: toRem(30);
+	font-size: rem(30);
 	cursor: pointer;
-	margin-top: toRem(60);
+	margin-top: rem(60);
 }
